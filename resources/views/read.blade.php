@@ -34,6 +34,8 @@
   
                 </div><!-- /.blog-post -->
 
+                {{-- navbar --}}
+
                 <nav class="blog-pagination">
                     <a class="btn btn-outline-primary" href="{{ route('landing') }}">KEMBALI</a>
                     @if(Auth::check())
